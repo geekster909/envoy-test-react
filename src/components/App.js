@@ -17,8 +17,8 @@ class App extends Component {
                     <div className="container">
                         <div className="about__intro">
                             <h1>An independent full service creative agency helping brave brands build businesses and be heard in a world full of noise. <span>We are Envoy.</span></h1>
-                            <hr className="big" />
                         </div>
+                        <hr className="big" />
                         <AboutFeatured featuredWork={Data.featuredWork}/>
                         <AboutWire wire={Data.wire}/>
                     </div>

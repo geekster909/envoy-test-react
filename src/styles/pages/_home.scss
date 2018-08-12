@@ -8,18 +8,14 @@
     .slick-slide > div {
         height: 100%;
     }
+    &--slider {
+        .slick-slide.slick-active {
+            z-index: 9;
+        }
+    }
     &--slide {
         position: relative;
         height: 100%;
-        &.slick-slide {
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: 0;
-            position: relative;
-            @include media($tablet-up) {
-                background-size: cover;
-            }
-        }
         .container {
             height: 100%;
         }
@@ -308,55 +304,5 @@
                 color: $cyan;
             }
         }
-    }
-}
-
-
-
-
-
-.about__ig--slider {
-    width: 90%;
-    margin: 0 auto;
-    overflow: visible;
-    .about__ig--slide {
-        margin: 0 0.5%;
-    }
-    .slick-next, .slick-prev {
-        position: absolute;
-        display: block;
-        height: 25px;
-        width: 16px;
-        line-height: 0;
-        font-size: 0;
-        cursor: pointer;
-        background: 0 0;
-        color: transparent;
-        top: 50%;
-        margin-top: -10px;
-        padding: 0;
-        border: none;
-        outline: 0;
-        opacity: 1;
-        transition: all .5s ease-in-out;
-        &:before {
-            content: '';
-            display: block;
-            border-bottom: 3px solid #000;
-            border-right: 3px solid #000;
-            line-height: 1;
-            height: 25px;
-            width: 25px;
-            transition: all .5s ease-in-out;
-            transform: rotate(-45deg);
-        }
-    }
-    .slick-prev {
-        -webkit-transform: rotate(180deg);
-        transform: rotate(180deg);
-        left: -20px;
-    }
-    .slick-next {
-        right: -20px;
     }
 }

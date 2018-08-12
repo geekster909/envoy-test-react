@@ -40,7 +40,7 @@ header {
 }
 .header__nav {
     display: block;
-    line-height: 1;
+    line-height: 0.75;
     position: fixed;
     top: 59px;
     left: 0;
@@ -56,9 +56,13 @@ header {
         top: inherit;
         background-color: inherit;
         height: inherit;
+        overflow: visible;
     }
     &.active {
         height: calc(100% - 60px);
+    }
+    ul {
+        font-size: 0;
     }
     li {
         text-align: center;

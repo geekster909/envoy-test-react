@@ -27,7 +27,7 @@ export default class about_wire extends Component {
         return (
             <div className="about__wired">
                 <div className="about__wired--main">
-                    Wire <a href="/">View All News</a>
+                    Wire <a href="">View All News</a>
                 </div>
                 <hr />
                 <div className="about__wired--group">

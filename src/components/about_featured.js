@@ -32,7 +32,7 @@ export default class about_featured extends Component {
         return (
             <div className="about__featured">
                 <div className="about__featured--main">
-                    Featured Work <a href="/">View All Work</a>
+                    Featured Work <a href="">View All Work</a>
                 </div>
                 <hr />
                 <div className="about__featured--group">
