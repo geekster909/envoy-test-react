@@ -25,7 +25,7 @@ export default class about_hero extends Component {
     }
 
     render() {
-        let settings = {
+        let sliderSettings = {
             dots: true,
             infinite: true,
             arrows: true,
@@ -45,7 +45,7 @@ export default class about_hero extends Component {
         };
         return (
             <div className="about__hero">
-                <Slider className="about__hero--slider" {...settings}>
+                <Slider className="about__hero--slider" {...sliderSettings}>
                     {Object.keys(this.props.slides).map(this.renderSlide)}
                 </Slider>
             </div>

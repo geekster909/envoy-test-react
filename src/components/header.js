@@ -31,16 +31,16 @@ export default class header extends Component {
                     <div className="header__container">
                         <div className="header__left">
                             <div className="header__logo">
-                                <a href="/"><img src={logo} alt="logo"/></a>
+                                <a href=""><img src={logo} alt="logo"/></a>
                             </div>
                             <div className={`header__nav ${menuOpen}`}>
                                 <ul>
-                                    <li className=""><a href="/">Work</a></li>
-                                    <li className=""><a href="/">Services</a></li>
-                                    <li className=""><a href="/">Ventures</a></li>
-                                    <li className="active"><a href="/">About</a></li>
-                                    <li className=""><a href="/">Contact</a></li>
-                                    <li className=""><a href="/">Blog</a></li>
+                                    <li className=""><a href="">Work</a></li>
+                                    <li className=""><a href="">Services</a></li>
+                                    <li className=""><a href="">Ventures</a></li>
+                                    <li className="active"><a href="">About</a></li>
+                                    <li className=""><a href="">Contact</a></li>
+                                    <li className=""><a href="">Blog</a></li>
                                 </ul>
                                 <div className="header__nav--twitter">
                                     <a href="https://twitter.com/weareenvoy?ref_src=twsrc%5Etfw" className="twitter-follow-button" data-show-count="false">Follow @weareenvoy</a><script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>

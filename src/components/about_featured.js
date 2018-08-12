@@ -12,7 +12,7 @@ export default class about_featured extends Component {
             <div className="about__featured--single col-sm-4" key={key}>
                 <div className="about__featured--image">
                     <a href={work.link}>
-                        <img src={work.image} alt="featured-work-1" />
+                        <img src={work.image} alt="featured-work" />
                     </a>
                 </div>
                 <div className="about__featured--title">
